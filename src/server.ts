@@ -41,7 +41,7 @@ server.post('/conversation/', (req, res) =>{
 });
 
 server.get("/", (_, res) =>{
-    res.send("Hello mundo");
+    res.send("Hello world");
 });
 
 export default server;
