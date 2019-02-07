@@ -39,6 +39,6 @@ server.post('/conversation/', function (req, res) {
     });
 });
 server.get("/", function (_, res) {
-    res.send("Hello mundo");
+    res.send("Hello world");
 });
 exports.default = server;

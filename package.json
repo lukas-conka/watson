@@ -7,7 +7,7 @@
     "test": "jest --no-cache",
     "dev": "nodemon --watch src/ --exec \"ts-node src/app.ts\" -e ts",
     "build": "tsc",
-    "prod": "npm run build && node dist/app.js"
+    "prod": "npm run build && node public/dist/app.js"
   },
   "jest": {
     "transform": {
